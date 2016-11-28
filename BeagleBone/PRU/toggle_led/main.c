@@ -34,7 +34,7 @@
 #include <stdint.h>
 #include <pru_cfg.h>
 
-volatile register uint32_t __R30;
+volatile register uint32_t __R31;
 
 /*
  * main.c
@@ -50,9 +50,9 @@ int main(void)
 	gpo = 0x0000;
 
 	while (1) {
-		gpo = __R30;
+		gpo = __R31;
 		gpo ^= 0xF;
-		__R30 = gpo;
+		__R31 = gpo;
 		__delay_cycles(100000000); // half-second delay
 	}
 }

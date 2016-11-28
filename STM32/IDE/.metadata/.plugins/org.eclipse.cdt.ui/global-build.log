@@ -1,0 +1,18 @@
+16:09:49 **** Build of configuration Debug for project Blink ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/home/kamil/uc_overview/STM32/IDE/Blink/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F303x8 -I"/home/kamil/uc_overview/STM32/IDE/Blink/Inc" -I"/home/kamil/uc_overview/STM32/IDE/Blink/Drivers/STM32F3xx_HAL_Driver/Inc" -I"/home/kamil/uc_overview/STM32/IDE/Blink/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy" -I"/home/kamil/uc_overview/STM32/IDE/Blink/Drivers/CMSIS/Device/ST/STM32F3xx/Include" -I"/home/kamil/uc_overview/STM32/IDE/Blink/Drivers/CMSIS/Include"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Src/subdir.mk:27: polecenia dla obiektu 'Src/main.o' nie powiodły się
+/bin/sh: 1: Syntax error: "(" unexpected
+make: *** [Src/main.o] Błąd 2
+16:10:05 **** Incremental Build of configuration Debug for project Blink ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+/home/kamil/uc_overview/STM32/IDE/Blink/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F303x8 -I"/home/kamil/uc_overview/STM32/IDE/Blink/Inc" -I"/home/kamil/uc_overview/STM32/IDE/Blink/Drivers/STM32F3xx_HAL_Driver/Inc" -I"/home/kamil/uc_overview/STM32/IDE/Blink/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy" -I"/home/kamil/uc_overview/STM32/IDE/Blink/Drivers/CMSIS/Device/ST/STM32F3xx/Include" -I"/home/kamil/uc_overview/STM32/IDE/Blink/Drivers/CMSIS/Include"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+/bin/sh: 1: Syntax error: "(" unexpected
+Src/subdir.mk:27: polecenia dla obiektu 'Src/main.o' nie powiodły się
+make: *** [Src/main.o] Błąd 2
